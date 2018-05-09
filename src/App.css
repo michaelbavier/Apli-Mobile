@@ -8,8 +8,6 @@
     position: absolute;
     bottom: 0;
     max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 
@@ -51,8 +49,7 @@
         position: absolute;
         z-index: 1000;
         bottom: -20px;
-        left: 8%;
-        margin-left: -8px;
+        left: 5%;
         border-top: 25px solid #d8d8d8;
         border-left: 0px solid transparent;
         border-right: 20px solid transparent;
@@ -65,8 +62,7 @@
     position: absolute;
     z-index: 1000;
     bottom: -20px;
-    right:8%;
-    margin-right: -8px;
+    right:5%;
     border-top: 25px solid #0097c8;
     border-left: 20px solid transparent;
     border-right: 0px solid transparent;

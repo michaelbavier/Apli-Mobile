@@ -6,20 +6,17 @@ import registerServiceWorker from './registerServiceWorker';
 import arrows from './arrows.svg';
 
 
-console.log(arrows);
-
 ReactDOM.render(<MainContainer />, document.getElementById('root'));
 
 
-
 function MainContainer(){
-    return <div className="maincontainer"> <Container/> <MessageForm/> </div>
+    return <div className="maincontainer"> <Container/> <MessageForm/></div>
 }
 
 //MESSAGE
 
 function Container(){
- return  <div className="container"> <Sender/> <Hour/> <Receiver/> <Hour/> <Sender/> <Hour/> <Receiver/> <Hour/> <Sender/> <Hour/> <Receiver/> <Hour/> <Sender/> <Hour/> <Receiver/></div>
+ return  <div className="container"> <Sender/> <Hour/> <Receiver/> <Hour/> <Sender/> <Hour/> <Receiver/> <Hour/> <Sender/> <Hour/> <Receiver/> <Hour/> <Sender/> <Hour/> <Receiver/> <Hour/><Sender/> <Hour/> <Receiver/> <Hour/> <Sender/> <Hour/> <Receiver/> <Hour/> <Sender/> <Hour/> <Receiver/> <Hour/> <Sender/> <Hour/> <Receiver/></div>
 }
 
 function Sender(){
@@ -41,4 +38,7 @@ function Hour(){
 function MessageForm(){
     return  <div className="containerBox"><form className="messageForm"> <input className="text" /> <button className="arrows" ><i className="fa fa-arrow-up"></i></button> </form></div>
 }
+
+
+
 
