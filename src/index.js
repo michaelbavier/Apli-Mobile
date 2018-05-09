@@ -10,10 +10,14 @@ ReactDOM.render(<MainContainer />, document.getElementById('root'));
 
 
 function MainContainer(){
-    return <div className="maincontainer"> <Container/> <MessageForm/></div>
+    return <div className="maincontainer"> <NoScroll/> <MessageForm/></div>
 }
 
 //MESSAGE
+
+function NoScroll(){
+    return <div className="noScroll"> <Container/></div>
+}
 
 function Container(){
  return  <div className="container"> <Sender/> <Hour/> <Receiver/> <Hour/> <Sender/> <Hour/> <Receiver/> <Hour/> <Sender/> <Hour/> <Receiver/> <Hour/> <Sender/> <Hour/> <Receiver/> <Hour/><Sender/> <Hour/> <Receiver/> <Hour/> <Sender/> <Hour/> <Receiver/> <Hour/> <Sender/> <Hour/> <Receiver/> <Hour/> <Sender/> <Hour/> <Receiver/></div>
